@@ -1,0 +1,27 @@
+.home {
+  margin-left: 70px;
+  margin-top: 35px;
+  margin-right: 35px;
+}
+
+.contact {
+  margin-left: 70px;
+  margin-top: 35px;
+  margin-right: 35px;
+}
+
+.home-par {
+  margin-top: 15px;
+  line-height: 30px;
+}
+
+.sign {
+  margin-top: 50px;
+  line-height: 30px;
+  font-size: 25px;
+}
+
+.contact-part {
+  margin-top: 15px;
+  line-height: 30px;
+}
