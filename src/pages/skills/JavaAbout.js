@@ -3,9 +3,9 @@ import { Link } from "react-scroll";
 
 const JavaAbout = () => {
   return (
-    <div className="java-about" id="java">
+    <div className="about" id="java">
       <h2 className="title">
-        Java
+        <i className="fab fa-java"> Java</i>
         <Link
           className="to-top"
           activeClass="active"
@@ -43,10 +43,17 @@ const JavaAbout = () => {
       </p>
       <p className="content">
         Another skill I never knew I would lean so heavily on is the ability to
-        read code I didn't write. As I type this, I realize it isn't a
+        read code that I hadn't written. As I type this, I realize it isn't a
         revolutionary revelation, nor one specific to Java, but it's one that
         has become absolutely invaluable when debugging or parsing through call
         heirarchies -- two things any good developer should be experienced at.
+      </p>
+      <p className="content">
+        <a className="tags">Skills: </a>
+        <a>
+          Java, Object-oriented Programming, Debugging, Eclipse, IntelliJ,
+          Maven, Tortoise, git
+        </a>
       </p>
     </div>
   );

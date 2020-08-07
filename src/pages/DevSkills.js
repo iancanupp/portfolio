@@ -33,7 +33,7 @@ const DevSkills = () => {
           offset={-70}
           duration={500}
         >
-          SQL
+          Databases
         </Link>
         <Link
           className="link"

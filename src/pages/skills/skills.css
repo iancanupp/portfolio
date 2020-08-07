@@ -1,7 +1,9 @@
 .main-skills {
-  margin-left: 70px;
+  margin-left: 25%;
   margin-top: 35px;
-  margin-right: 35px;
+  margin-right: 25%;
+  display: grid;
+  place-items: center;
 }
 
 .table-header {
@@ -23,21 +25,6 @@
 .link {
   margin: 50px;
   cursor: pointer;
-}
-
-.sql-about {
-  height: 100vh;
-  background-color: mediumpurple;
-}
-
-.react-about {
-  height: 100vh;
-  background-color: tomato;
-}
-
-.python-about {
-  height: 100vh;
-  background-color: palegreen;
 }
 
 .content {
@@ -63,7 +50,6 @@
 .to-top {
   font-size: 14px;
 }
-
 .arrow {
   border: solid black;
   border-width: 0 3px 3px 0;
@@ -71,7 +57,30 @@
   padding: 3px;
   margin-left: 10px;
 }
+
 .up {
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
+}
+
+.fa-java {
+  font-size: 35px;
+}
+
+.fa-react {
+  font-size: 35px;
+}
+
+.fa-python {
+  font-size: 35px;
+}
+
+.sql-title {
+  font-size: 35px;
+  font-weight: normal;
+}
+
+.tags {
+  font-weight: bold;
+  margin-right: 20px;
 }
