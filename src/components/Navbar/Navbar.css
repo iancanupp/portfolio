@@ -36,7 +36,7 @@
 
 .nav-links {
   color: white;
-  text-decoration: none;
+  text-decoration: none !important;
   padding: 0.5rem 1rem;
 }
 
