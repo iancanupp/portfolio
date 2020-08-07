@@ -24,7 +24,11 @@ const Navbar = () => {
           return (
             <li key={index}>
               <Link to={item.link}>
-                <a className={item.cName} href={item.link}>
+                <a
+                  className={item.cName}
+                  href={item.link}
+                  onClick={handleClick}
+                >
                   {item.title}
                 </a>
               </Link>
