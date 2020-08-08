@@ -1,5 +1,5 @@
 .NavbarItems {
-  background: #001d4a;
+  background: #582795;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -15,7 +15,7 @@
   cursor: pointer;
 }
 
-.fa-react {
+.fa-folder {
   margin-left: 0.5rem;
   font-size: 1.6rem;
   background-color: inherit;
@@ -32,23 +32,22 @@
   justify-content: end;
   margin-right: 2rem;
 }
-
 .nav-links {
   color: white;
-  background-color: #001d4a;
+  background-color: #582795;
   text-decoration: none !important;
   padding: 0.5rem 1rem;
 }
 
 .nav-links:hover {
-  background-color: #27476e;
+  background-color: #7c3ccc;
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
 
 .fa-bars {
   color: white;
-  background-color: #001d4a;
+  background-color: #582795;
 }
 
 .nav-links-mobile {
@@ -78,7 +77,7 @@
   }
 
   .nav-menu.active {
-    background: #001d4a;
+    background: #582795;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -93,7 +92,7 @@
   }
 
   .nav-links:hover {
-    background-color: #27476e;
+    background-color: #7c3ccc;
     border-radius: 0;
   }
 
