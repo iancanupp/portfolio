@@ -1,9 +1,5 @@
 .NavbarItems {
-  background: linear-gradient(
-    90deg,
-    rgb(110, 94, 254) 0%,
-    rgba(73, 63, 252, 1) 100%
-  );
+  background: #001d4a;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -13,6 +9,7 @@
 
 .navbar-logo {
   color: #fff;
+  background-color: inherit;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -21,10 +18,12 @@
 .fa-react {
   margin-left: 0.5rem;
   font-size: 1.6rem;
+  background-color: inherit;
 }
 
 .nav-menu {
   display: grid;
+  background-color: inherit;
   grid-template-columns: repeat(5, auto);
   grid-gap: 10px;
   list-style: none;
@@ -36,18 +35,20 @@
 
 .nav-links {
   color: white;
+  background-color: #001d4a;
   text-decoration: none !important;
   padding: 0.5rem 1rem;
 }
 
 .nav-links:hover {
-  background-color: #6d76f7;
+  background-color: #27476e;
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
 
 .fa-bars {
-  color: #fff;
+  color: white;
+  background-color: #001d4a;
 }
 
 .nav-links-mobile {
@@ -56,6 +57,7 @@
 
 .menu-icon {
   display: none;
+  background-color: inherit;
 }
 
 @media screen and (max-width: 960px) {
@@ -67,7 +69,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 500px;
+    height: 300px;
     position: absolute;
     top: 80px;
     left: -100%;
@@ -76,7 +78,7 @@
   }
 
   .nav-menu.active {
-    background: #6668f4;
+    background: #001d4a;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -91,7 +93,7 @@
   }
 
   .nav-links:hover {
-    background-color: #7577fa;
+    background-color: #27476e;
     border-radius: 0;
   }
 
@@ -115,6 +117,7 @@
   .fa-times {
     color: #fff;
     font-size: 2rem;
+    background-color: inherit;
   }
 
   .nav-links-mobile {
@@ -124,7 +127,7 @@
     margin: 2rem auto;
     border-radius: 4px;
     width: 80%;
-    background: #4ad9e4;
+    background: red;
     text-decoration: none;
     color: #fff;
     font-size: 1.5rem;
@@ -132,7 +135,7 @@
 
   .nav-links-mobile:hover {
     background: #fff;
-    color: #6568f4;
+    color: purple;
     transition: 250ms;
   }
 

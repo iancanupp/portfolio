@@ -28,8 +28,8 @@ const ReactAbout = () => {
         skill set towards the other end of the stack. I am entirely self taught
         on this front, going from a Hello React page to building projects like
         this in about two weeks. In developing these apps (many which will never
-        see the light of day) I've become far more comfortable with CSS and
-        numerous react libraries.
+        see the light of day) I've become far more comfortable with CSS and a
+        number of react libraries.
       </p>
       <p className="content">
         Additionally, I've realized that the principles of web development
@@ -51,8 +51,8 @@ const ReactAbout = () => {
         working on a React App that pulls from a basketball API source and
         allows you to compare players side by side. It's still in progress, but
         it's been an incredible and fun learning experience for me - combining
-        two of my hobbies into one. I don't intend for this website to blow
-        anyone away. Instead, I've built it to stand as a testiment to my
+        two of my hobbies into one. I don't exactly intend for this website to
+        blow anyone away. Instead, I've built it to stand as a testiment to my
         ability to
       </p>
       <ul className="content">
@@ -62,7 +62,7 @@ const ReactAbout = () => {
         </li>
       </ul>
       <p className="content">
-        And to both of those points, I believe I've succeeded.
+        To both of those points, I believe I've succeeded.
       </p>
       <p className="content">
         <a className="tags">Skills: </a>

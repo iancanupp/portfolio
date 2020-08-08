@@ -21,16 +21,16 @@ const Home = () => {
       <p className="home-par">
         Outside of computer science I'm a huge basketball fan, specifically the
         New York Knicks. I know that anyone who watches even a little NBA is
-        probably questioning my sanity and decision making, but don't worry
-        because so am I. A passion for the sport has opened the way for me to
-        discover the fascinating world of analytics that lies beneath. It is my
-        goal in the near future to combine my accumulated understanding of these
-        analytics with my front end development knowledge to create a kind of
-        player comparison app, so I might be able to tell you -- with the data
-        in front of me -- exactly how and why the Knicks haven't been near
-        playoffs in over a decade. In fact, sports data analytics would be
-        something of a dream job, but for now I'm happy to figure it out in my
-        apartment.
+        probably questioning my sanity and decision making, and of course it
+        should go without saying that I do the same. That said, my passion for
+        the sport has opened the way for me to discover the fascinating world of
+        analytics that lies beneath. It is my goal in the near future to combine
+        my accumulated understanding of these analytics with my front end
+        development knowledge to create a kind of player comparison app, so I
+        might be able to tell you -- with the data in front of me -- exactly how
+        and why the Knicks haven't been near playoffs in over a decade. In fact,
+        sports data analytics would be something of a dream job, but for now I'm
+        happy to figure it out in my apartment.
       </p>
       <p className="home-par">
         To cap off the at-a-glance version of myself, I did my study abroad in

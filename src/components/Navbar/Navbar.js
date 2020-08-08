@@ -36,9 +36,6 @@ const Navbar = () => {
           );
         })}
       </ul>
-      <form action="https://www.linkedin.com/in/ian-canupp-5b79b9141/">
-        <Button>My LinkedIn Profile</Button>
-      </form>
     </nav>
   );
 };
